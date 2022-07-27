@@ -1,0 +1,48 @@
+.slideshow {
+    overflow: hidden;
+
+    /* try to set this outside of slideshow component. 
+    it should be set to the width of the slideshow <img>  */
+    max-width: 400px;
+}
+
+.inner {
+    white-space: nowrap;
+    transition: transform 0.3s;
+}
+
+.slideshow-item {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+
+    /* change this stuff: */
+    /* background-color: var(--color-green); */
+    /* background-image: "url(/home/logan/shaw-orchards/src/assets/peach1.jpg)"; */
+
+}
+
+
+
+/* retstyle these indicators: */
+
+.indicators {
+    display: flex;
+    justify-content: center;
+}
+
+.indicators > button {
+    height: .75rem;
+    width: .75rem;
+    background-color: var(--color-light-pink);
+    border-radius: 50%;
+    border-width: 1px;
+    border: none;
+    margin: 9px;
+    cursor: pointer;
+}
+
+.indicators > button.active {
+    background-color: var(--color-dark-pink);
+}

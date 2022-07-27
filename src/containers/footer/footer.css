@@ -1,0 +1,41 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 1rem 2rem;
+    background-color: var(--color-green);
+}
+
+.footer-item {
+    padding: 0rem .5rem;
+}
+
+.footer img {
+    width: 8rem;
+}
+
+.white {
+    color: var(--color-bg);
+}
+
+.phone-number {
+    padding-bottom: 1rem;
+    font-size: 0.94rem;
+}
+
+.footer-address p {
+    font-size: 0.8rem;
+}
+
+.footer button {
+    max-width: 10rem;
+}
+
+/* fixes icon alignment when they switch from a square to vertical */
+@media screen and (max-width: 570px) {
+    .footer button {
+        font-size: 0.7rem;
+        min-width: 5.7rem;
+    }
+}

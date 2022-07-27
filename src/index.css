@@ -1,13 +1,21 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+:root {
+    --fancy-font: 'Caladea', serif;
+    --simple-font: 'Poppins', sans-serif;
+
+    --color-bg: #F7EDE2;
+    --color-green: #84A59D;
+    --color-yellow: #F6BD60;
+    --color-dark-pink: #F28482;
+    --color-light-pink: #F5CAC3;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.shaw-orchards__yellow-button {
+    background-color: var(--color-yellow);
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.25rem;
+    display: table;
+	margin: auto;
 }

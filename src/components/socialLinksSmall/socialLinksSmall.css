@@ -1,0 +1,16 @@
+.small__social-links td {
+    padding: .1rem;
+    cursor: pointer;
+}
+
+.small__phone-icon {
+    position: relative;
+    top: -3px;
+    left: .7px;
+}
+
+.small__email-icon {
+    position: relative;
+    left: 0.7px;
+}
+

@@ -1,0 +1,41 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem;
+}
+
+.header img {
+    width: calc(15px + 12vw);
+}
+
+.header h1 {
+    font-size: calc(8px + 5vw);
+}
+
+.header h3 {
+    font-size: 2vw;
+    display: table;
+	margin: auto;
+    font-style: italic;
+}
+
+.normal-links {
+    padding-right: 1rem;
+}
+
+.small-links {
+    display: none;
+}
+
+
+@media screen and (max-width: 855px) {
+    .normal-links {
+        display: none;
+    }
+    
+    .small-links {
+        display: block;
+    }
+}

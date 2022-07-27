@@ -1,0 +1,51 @@
+.story {
+    border-top: 3px solid var(--color-dark-pink);
+    margin: 2rem;
+}
+
+.story h1 {
+    display: table;
+	margin: auto;
+    padding: 0.8rem;
+}
+
+.split-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.split-item-left {
+    flex: 50%;
+    padding: 0rem 2rem 0rem;
+    display: flex;
+    flex-direction: column;
+    flex: space-between;
+}
+
+.split-item-left p {
+    text-indent: 2rem;
+    line-height: 130%;
+}
+
+.signature {
+    padding-top: 0.5rem;
+    text-indent: 0rem !important;
+    font-style: italic;
+    display: table;
+	margin: auto;
+}
+
+.split-item-right {
+    flex: 50%;
+    padding: 0rem, 2rem, 0rem;
+    display: flex;
+    flex-direction: column;
+    flex: space-between;
+}
+
+.split-item-right img {
+    width: 300px;
+    display: table;
+	margin: auto;
+    padding: 1rem;
+}

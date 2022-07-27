@@ -1,0 +1,91 @@
+/* .shaw-orchards__landing {
+} */
+
+.shaw-orchards__landing-flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.flex-item-left {
+    flex: 50%;
+    padding: 2rem 2rem 1rem;
+
+    display: flex;
+    flex-direction: column;
+    flex: space-between;
+}
+
+.landing-slideshow {
+    display: table;
+	margin: auto;
+}
+
+.landing-slideshow img {
+    width: 400px;
+}
+
+
+.flex-item-right {
+    flex: 50%;
+    padding: 2rem 2rem 1rem;
+    
+    display: flex;
+    flex-direction: column;
+    flex: space-between;
+}
+
+.shaw-orhcards__in-season-box ul {
+    font-family: var(--fancy-font);
+    columns: 2;
+    max-width: 22rem;
+    padding-bottom: 0.8rem;
+    /* make sure this one doesn't cause problems: */
+    padding-left: 2rem;
+    margin: auto;
+}
+
+.flex-item-right h3 {
+    font-family: var(--simple-font);
+	padding-bottom: 0.8rem;
+    display: table;
+	margin: auto;
+}
+
+/* This was moved to src/index.html */
+/* .shaw-orchards__yellow-button {
+    background-color: var(--color-yellow);
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.25rem;
+    display: table;
+	margin: auto;
+} */
+
+.shaw-orhcards__in-season-box {
+    border-bottom: 3px solid var(--color-dark-pink);
+    padding-bottom: 1rem;
+}
+
+.shaw-orhcards__newsletter-box {
+    padding-top: 1rem;
+}
+
+.shaw-orchards__date {
+    color: var(--color-dark-pink);
+    font-weight: bold;
+}
+
+.shaw-orhcards__newsletter-box p {
+    padding: 1rem;
+    width: 90%;
+    margin: auto;
+}
+
+
+/* Responsive layout - makes a one column layout (100%) instead of a two-column layout (50%) */
+/* THIS WIDTH VALUE COULD CHANGE */
+@media (max-width: 800px) {
+    .flex-item-right, .flex-item-left {
+        flex: 100%;
+    }
+}

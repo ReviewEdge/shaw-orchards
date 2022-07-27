@@ -1,0 +1,99 @@
+
+
+
+
+
+/* DONT USE THIS ONE */
+
+
+
+
+
+.shaw-orchards__navbar {
+    padding: 1rem 1rem;
+    background-color: var(--color-green);
+}
+
+.shaw-orchards__navbar-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* this makes the nav bar taller */
+.nav-bullet {
+    font-size: 45px;
+    
+    /* same size as link font size */
+    line-height: 19px;
+}
+
+.shaw-orchards__navbar-links p {
+    font-family: var(--fancy-font);
+    font-size: 1.18rem;
+    /* line-height: 25px; */
+    text-transform: capitalize;
+
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+.shaw-orchards__navbar-menu {
+    margin-left: 1rem;
+
+    display: none;
+    position: relative;
+}
+
+.shaw-orchards__navbar-menu_container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex end;
+    flex-direction: column;
+
+    text-align: end;
+    background-color: var( --color-green);
+    padding: 2rem;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    margin-top: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5 rgba(0,0,0,0.2);
+}
+
+.shaw-orchards__navbar-menu_container p {
+    margin: 1rem 0;
+}
+
+
+
+
+@media screen and (max-width: 1050px) {
+    .shaw-orchards__navbar-links_container {
+        display: none;
+    }
+
+    .shaw-orchards__navbar-menu {
+        display: flex;
+    }
+}
+
+
+
+
+@media screen and (max-width: 550px) {
+    .shaw-orchards__navbar {
+        padding: 2rem
+    }
+
+    .shaw-orchards__navbar-menu_container {
+        top: 20px;
+    }
+}

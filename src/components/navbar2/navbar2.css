@@ -1,0 +1,65 @@
+.shaw-orchards__navbar {
+    background-color: var(--color-green);
+    padding: 1rem 2rem;
+}
+
+.shaw-orchards__navbar-menu {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+.shaw-orchards__navbar p {
+    font-weight: bold;
+    font-family: var(--fancy-font);
+    font-size: 1.18rem;
+    text-transform: capitalize;
+
+    cursor: pointer;
+}
+
+
+.shaw-orchards__nav-bullet {
+    font-size: 40px;
+    
+    /* same size as link font size */
+    line-height: 1.18rem;
+}
+
+
+.shaw-orhcards__hamburger {
+    cursor: pointer;
+
+    /* ignores other items in navbar, and pushes to right side */
+    position: absolute;
+    right: 25px;
+    display: none;
+}
+
+
+/* This is the widest it can be before the navbar moves links to multiple lines.
+This max width should be edited if font size changes */
+@media screen and (max-width: 855px) {
+    .shaw-orhcards__hamburger {
+        display: block;
+      }
+    
+    /* hide menu when in mobile */
+    .shaw-orchards__navbar-menu p {
+        padding: 0.5rem;
+        display: none;
+    }
+
+    .shaw-orchards__navbar-menu {
+        flex-direction: column;
+    }
+   
+    .shaw-orchards__nav-bullet {
+        display: none;
+    }
+
+    .shaw-orchards__navbar-menu.expanded p {
+        display: block;
+    }
+}
