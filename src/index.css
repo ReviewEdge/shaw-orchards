@@ -11,11 +11,3 @@
     --color-light-pink: #F5CAC3;
 }
 
-.shaw-orchards__yellow-button {
-    background-color: var(--color-yellow);
-    border: none;
-    border-radius: 0.4rem;
-    padding: 0.25rem;
-    display: table;
-	margin: auto;
-}

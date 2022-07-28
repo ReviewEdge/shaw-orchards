@@ -23,6 +23,16 @@ p {
     font-family: var(--simple-font);
 }
 
+.shaw-orchards__yellow-button {
+    background-color: var(--color-yellow);
+    border: none;
+    border-radius: 0.4rem;
+    padding: 0.25rem;
+    display: table;
+	margin: auto;
+    cursor: pointer;
+}
+
 /* a way to change padding and margin on medium size device */
 /* @media screen and (max-width: 700px) {
 

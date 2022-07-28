@@ -7,7 +7,11 @@ import SocialLinks from '../../components/socialLinks/SocialLinks';
 function Footer() {
   return (
     <div className='footer'>
-      <img className="footer-item" src={logo} alt="logo"/>
+
+
+      <a href="#home">
+        <img className="footer-item" src={logo} alt="logo"/>
+      </a>
 
       <div className='footer-item footer-address'>
         <p className='white'>BUSINESS ADDRESS</p>

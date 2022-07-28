@@ -33,9 +33,69 @@
 
     /* ignores other items in navbar, and pushes to right side */
     position: absolute;
-    right: 25px;
+    left: -28px;
+    top: -12px;
     display: none;
 }
+
+.shaw-orhcards__x {
+    cursor: pointer;
+
+    /* ignores other items in navbar, and pushes to right side */
+    position: absolute;
+    left: -30px;
+    top: -12px;
+    display: none;
+}
+
+
+
+
+
+
+.drop-box {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.dropdown {
+    display: none;
+}
+
+
+
+.dropdown.expanded {
+    position: absolute;
+    top: 1.4rem;
+    z-index: 1;
+    /* left: 0.3em; */
+    
+    background-color: var(--color-green);
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 0rem;
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.5rem;
+
+    border-radius: 0.2rem;
+    
+    animation: fadeIn 0.8s;
+}
+
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+
+.dropdown.expanded p {
+    border-top: 1px solid #000;
+}
+
 
 
 /* This is the widest it can be before the navbar moves links to multiple lines.
@@ -43,6 +103,10 @@ This max width should be edited if font size changes */
 @media screen and (max-width: 855px) {
     .shaw-orhcards__hamburger {
         display: block;
+      }
+      
+    .shaw-orhcards__x {
+        display: none;
       }
     
     /* hide menu when in mobile */
@@ -53,6 +117,9 @@ This max width should be edited if font size changes */
 
     .shaw-orchards__navbar-menu {
         flex-direction: column;
+
+        /* puts menu items on left side instead of center */
+        align-items: flex-start;
     }
    
     .shaw-orchards__nav-bullet {
@@ -61,5 +128,26 @@ This max width should be edited if font size changes */
 
     .shaw-orchards__navbar-menu.expanded p {
         display: block;
+    }
+
+    .shaw-orhcards__hamburger.expanded {
+        display: none;
+      }
+
+    .shaw-orhcards__x.expanded {
+        display: block;
+      }
+
+    
+
+
+    .dropdown.expanded {
+        background-color: var(--color-bg);
+        position: relative;
+        top: 0rem;
+    }
+
+    .dropdown.expanded p {
+        border: none
     }
 }

@@ -12,7 +12,7 @@ const Menu = () => (
   <span class="nav-bullet">·</span>
   <p><a href="#home">CONTACT US</a></p>
   <span class="nav-bullet">·</span>
-  <p><a href="https://shaw-orchards.square.site/" target="_blank">ONLINE STORE</a></p>
+  <p><a href="https://shaw-orchards.square.site/" target="_blank" rel="noreferrer">ONLINE STORE</a></p>
   <span class="nav-bullet">·</span>
   <p><a href="#home">WHOLESALE</a></p>
   <span class="nav-bullet">·</span>

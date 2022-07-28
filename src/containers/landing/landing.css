@@ -35,7 +35,8 @@
 }
 
 .shaw-orhcards__in-season-box ul {
-    font-family: var(--fancy-font);
+    font-family: var(--simple-font);
+    color: var(--color-green);
     columns: 2;
     max-width: 22rem;
     padding-bottom: 0.8rem;
