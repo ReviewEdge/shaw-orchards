@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# shaworchards.com
+A fully responsive website built with React for Shaw Orchards in White Hall, Maryland.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
