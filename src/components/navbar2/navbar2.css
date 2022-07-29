@@ -138,9 +138,6 @@ This max width should be edited if font size changes */
         display: block;
       }
 
-    
-
-
     .dropdown.expanded {
         background-color: var(--color-bg);
         position: relative;
