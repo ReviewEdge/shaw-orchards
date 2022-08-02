@@ -1,8 +1,5 @@
 import React from 'react'
-import './planYourVisit.css'
-
-import {Footer, Header} from '../../containers';
-import { Navbar2 } from '../';
+import './visitInfo.css'
 
 import kid from '../../assets/kid eating strawberry sq.jpg';
 

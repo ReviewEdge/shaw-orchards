@@ -1,4 +1,5 @@
 import React from 'react'
+
 // import {
 //   BrowserRouter as Router,
 //   Routes,
@@ -6,7 +7,9 @@ import React from 'react'
 //   Link
 // } from 'react-router-dom';
 
-import { Home, PlanYourVisit } from './components';
+import { Home } from './home';
+import { PlanYourVisit } from './planYourVisit';
+
 import './App.css';
 
 const App = () => {

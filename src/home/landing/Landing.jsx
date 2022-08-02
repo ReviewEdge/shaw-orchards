@@ -1,7 +1,7 @@
 import React from 'react'
 import './landing.css'
 
-import Slideshow, {SlideshowItem} from '../../components/slideshow/Slideshow'
+import Slideshow, {SlideshowItem} from '../slideshow/Slideshow'
 
 import peach from '../../assets/peach1.jpg';
 import pumpkin from '../../assets/pumpkins.jpg';

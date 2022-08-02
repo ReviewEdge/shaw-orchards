@@ -1,11 +1,11 @@
 import React from 'react'
-import {Footer, Header, Landing} from '../../containers';
-import { Navbar2, Story, News } from '../';
+import { Title, Navbar2, News, Footer } from '../features';
+import {Landing, Story} from './';
 
 const Home = () => {
   return (
       <div className="home">
-        <Header />
+        <Title />
         <Navbar2 />
         <News />
         <Landing />

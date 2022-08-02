@@ -44,7 +44,7 @@ function Navbar() {
           }}
         >
           <p>
-              <a href="#home">PLAN YOUR VISIT</a>
+              <a href="#plan-your-visit">PLAN YOUR VISIT</a>
           </p>
 
           <div className={

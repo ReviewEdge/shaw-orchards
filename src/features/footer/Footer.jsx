@@ -2,7 +2,7 @@ import React from 'react'
 import './footer.css'
 
 import logo from '../../assets/logo2.png';
-import SocialLinks from '../../components/socialLinks/SocialLinks';
+import SocialLinks from '../socialLinks/SocialLinks';
 
 function Footer() {
   return (

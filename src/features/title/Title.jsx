@@ -1,9 +1,9 @@
 import React from 'react'
-import './header.css'
+import './title.css'
 
 import logo from '../../assets/logo2.png';
-import SocialLinks from '../../components/socialLinks/SocialLinks';
-import SocialLinksSmall from '../../components/socialLinksSmall/SocialLinksSmall';
+import SocialLinks from '../socialLinks/SocialLinks';
+import SocialLinksSmall from '../socialLinksSmall/SocialLinksSmall';
 
 function Header() {
   return (
@@ -31,5 +31,5 @@ function Header() {
     </div>
   )
 }
- 
+
 export default Header
