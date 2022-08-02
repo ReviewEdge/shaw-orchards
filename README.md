@@ -1,5 +1,5 @@
 # shaworchards.com
-A fully responsive website built with React for Shaw Orchards in White Hall, Maryland.
+A fully responsive website built with React for Shaw Orchards.
 
 ## Getting Started with Create React App
 
