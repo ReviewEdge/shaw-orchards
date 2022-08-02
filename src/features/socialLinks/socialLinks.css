@@ -16,7 +16,7 @@
 
 
 /* fixes icon alignment when they switch from a square to vertical */
-@media screen and (max-width: 712px) {
+@media screen and (max-width: 472px) {
     .email-icon {
         top: -10px;
         left: -0.7px;

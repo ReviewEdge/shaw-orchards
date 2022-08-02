@@ -1,9 +1,9 @@
 .footer {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    align-items: flex-start;
 
-    padding: 1rem 2rem;
+    padding: 1rem 0rem;
     background-color: var(--color-green);
 }
 
@@ -12,7 +12,7 @@
 }
 
 .footer img {
-    width: 7rem;
+    width: 9rem;
 }
 
 .white {
@@ -28,6 +28,10 @@
     font-size: 0.8rem;
 }
 
+.address-pad {
+    padding-bottom: 0.5rem;
+}
+
 .footer button {
     max-width: 10rem;
 }
@@ -35,7 +39,15 @@
 /* fixes icon alignment when they switch from a square to vertical */
 @media screen and (max-width: 570px) {
     .footer button {
-        font-size: 0.7rem;
-        min-width: 5.7rem;
+        font-size: 0.6rem;
+        /* min-width: 5.2rem; */
+    }
+
+    .footer p {
+        font-size: 0.6rem;
+    }
+
+    .footer img {
+        width: 7rem;
     }
 }

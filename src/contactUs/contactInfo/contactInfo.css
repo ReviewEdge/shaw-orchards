@@ -1,0 +1,47 @@
+.contactInfo {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.contactInfo h1 {
+    text-align: center;
+    padding: 1.4rem 1rem;
+}
+
+.contact-pad {
+    padding-top: 2rem;
+}
+
+.contact-pad-right {
+    padding-right: 1.3rem;
+}
+
+.contact-triple-split-container {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 3px solid var(--color-dark-pink);
+}
+
+.contact-triple-split-container h3 {
+    font-family: var(--fancy-font);
+    padding-bottom: 0.8rem;
+}
+
+.contact-col-1 {
+    flex: 33.33%;
+    padding-top: 1rem;
+}
+
+.contact-col-2 {
+    flex: 33.33%;
+    padding-top: 1rem;
+}
+.contact-col-3 {
+    flex: 33.33%;
+    padding-top: 1rem;
+}
+
+.contact-col-3 img {
+    width: 14rem;
+    padding-bottom: 1.3rem;
+}
