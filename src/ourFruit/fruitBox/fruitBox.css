@@ -1,0 +1,65 @@
+.fruitBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 15rem;
+    height: 15rem;
+    background-color: var(--color-green);
+    border-radius: 1.4rem;
+    padding: 1rem;
+    background-clip: content-box;
+    position: relative;
+}
+
+.fruitBox h2 {
+    color: var(--color-bg);
+    font-size: 2rem;
+    word-wrap: break-word;
+    width: 12rem;
+}
+
+.fruitBox h3 {
+    position: absolute;
+    left: 24px;
+    bottom: 138px;
+    font-family: var(--simple-font);
+    width: 12rem;
+}
+
+.fruitBox p {
+    font-size: 0.85rem;
+    position: absolute;
+    bottom: 80px;
+    color: var(--color-bg);
+    width: 12rem;
+}
+
+@media screen and (max-width: 799px) {
+    .fruitBox {
+        width: 6.8rem;
+        height: 6.8rem;
+        border-radius: 0.7rem;
+        padding: 0.5rem;
+    }
+    
+    .fruitBox h2 {
+        font-size: 0.9rem;
+        width: 5.4rem;
+    }
+    
+    .fruitBox h3 {
+        font-size: 0.57rem;
+        left: 11px;
+        top: 37px;
+        width: 5.4rem;
+    }
+    
+    .fruitBox p {
+        font-size: 0.4rem;
+        position: absolute;
+        top: 64px;
+        width: 5.4rem;
+    }
+}

@@ -1,0 +1,17 @@
+.fruits {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.fruits h1 {
+    text-align: center;
+    padding: 1.4rem 1rem;
+    /* font-size: 3.6rem; */
+    font-size: calc(16px + 3.6vw);
+}
+
+.fruits-container {
+    display: flex;
+    flex-wrap: wrap;
+    border-top: 3px solid var(--color-dark-pink);
+}

@@ -1,17 +1,19 @@
 import React from 'react'
 import { Title, Navbar2, News, Footer } from '../features';
-import {VisitInfo} from './';
+import {Fruits} from './';
 
-const PlanYourVisit = () => {
+const OurFruit = () => {
   return (
       <div>
         <Title />
         <Navbar2 />
         <News />
-        <VisitInfo />
+
+        <Fruits />
+        
         <Footer />
       </div>
   )
 }
 
-export default PlanYourVisit
+export default OurFruit
