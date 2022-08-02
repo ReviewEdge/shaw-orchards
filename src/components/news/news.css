@@ -1,0 +1,14 @@
+.news {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 0.7rem;
+    background-color: var(--color-yellow);
+}
+
+.news-date {
+    padding: 0.2rem;
+    border-radius: 0.4rem;
+    color: var(--color-dark-pink);
+    background-color: var(--color-bg-trans);
+}

@@ -19,14 +19,12 @@
     cursor: pointer;
 }
 
-
 .shaw-orchards__nav-bullet {
     font-size: 40px;
     
     /* same size as link font size */
     line-height: 1.18rem;
 }
-
 
 .shaw-orhcards__hamburger {
     cursor: pointer;
@@ -48,22 +46,14 @@
     display: none;
 }
 
-
-
-
-
-
 .drop-box {
     display: flex;
     flex-direction: column;
 }
 
-
 .dropdown {
     display: none;
 }
-
-
 
 .dropdown.expanded {
     position: absolute;
@@ -96,7 +86,19 @@
     border-top: 1px solid #000;
 }
 
+/* figure out a nice way to do this */
+/* .dropdown.expanded p:hover {
+    color: var(--color-bg);
+} */
 
+
+
+/* at the point the the navbar items switch to two lines, the dropdown menus have to be lower */
+@media screen and (max-width: 952px) {
+    .dropdown.expanded {
+        top: 2.75rem;
+    }
+}
 
 /* This is the widest it can be before the navbar moves links to multiple lines.
 This max width should be edited if font size changes */

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './story.css'
 
 import staff from '../../assets/shaw orchards staff wider.jpg';

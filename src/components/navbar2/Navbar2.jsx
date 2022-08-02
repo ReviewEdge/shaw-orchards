@@ -10,9 +10,6 @@ function Navbar() {
   
   return (
     <div className="shaw-orchards__navbar">
-
-
-
       <div
         className={
           isNavExpanded ? "shaw-orchards__navbar-menu expanded" : "shaw-orchards__navbar-menu"
@@ -36,9 +33,6 @@ function Navbar() {
             setIsNavExpanded(!isNavExpanded);
           }}
         />
-
-
-
 
         <div className='drop-box'
           onMouseEnter={() => {
@@ -65,14 +59,10 @@ function Navbar() {
           </div>
         </div>
 
-
-
-
         <span class="shaw-orchards__nav-bullet"> · </span>
         <p><a href="#home">OUR FRUIT</a></p>
         <span class="shaw-orchards__nav-bullet"> · </span>
 
-        
         <div className='drop-box'
           onMouseEnter={() => {
             setIsFarmExpanded(!isFarmExpanded);
@@ -100,11 +90,6 @@ function Navbar() {
             <p><a href="#home">LEARN MORE</a></p>
           </div>
         </div>
-
-
-
-
-
 
         <span class="shaw-orchards__nav-bullet"> · </span>
         <p><a href="#home">CONTACT US</a></p>
