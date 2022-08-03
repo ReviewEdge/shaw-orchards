@@ -1,0 +1,76 @@
+.fruit-top {
+    padding: 0rem 2rem 0rem;
+}
+
+.fruit-top h1 {
+    border-bottom: 3px solid var(--color-dark-pink);
+    padding: 2rem 0rem 2rem;
+    text-align: center;
+    font-size: calc(14px + 3vw);
+}
+
+.three-pics {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0.7rem 0rem 1rem;
+    justify-content: space-around;
+}
+
+.three-pics img {
+    width: 26vw;
+    max-width: 270px;
+    /* padding-left: 2rem; */
+    padding-top: 0.3rem;
+}
+
+.fruit-dates-news-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 1rem;
+}
+
+.fruit-dates-box {
+
+}
+
+.fruit-news-box {
+
+}
+
+.dates-box-inner {
+    display: flex;
+    justify-content: flex-start;
+    padding-right: 1rem;
+}
+
+.dates-box-inner-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.givem-a-little-space-1 {
+    padding-bottom: 0.4rem;
+}
+
+/* this is a complete and utter hack */
+.dates-box-inner-2 {
+    border-top: 2px solid var(--color-dark-pink);
+    border-bottom: 2px solid var(--color-dark-pink);
+    margin: 0.69rem 0.8rem;
+}
+
+.dates-box-inner-2 p {
+    color: var(--color-bg);
+}
+
+.dates-box-inner-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin: 0.5rem 0rem; */
+}
+
+.givem-a-little-space-2 {
+    padding-bottom: 1.27rem;
+}

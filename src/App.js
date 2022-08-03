@@ -10,14 +10,15 @@ import React from 'react'
 import { Home } from './home';
 import { PlanYourVisit } from './planYourVisit';
 import { ContactUs } from './contactUs';
-import { OurFruit } from './ourFruit';
+import { OurFruit, Strawberries } from './ourFruit';
 
 import './App.css';
 
 const App = () => {
   return (
     <div className="App">
-      <OurFruit />
+      <Strawberries />
+      {/* <OurFruit /> */}
       {/* <ContactUs /> */}
       {/* <PlanYourVisit /> */}
       {/* <Home /> */}

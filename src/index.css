@@ -1,6 +1,7 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:wght@300&display=swap');
 
-:root {
+:root { 
     --fancy-font: 'Caladea', serif;
     --simple-font: 'Poppins', sans-serif;
 
