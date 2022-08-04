@@ -2,6 +2,7 @@ import React from 'react'
 import './singleFruit.css'
 
 import square from '../../assets/pumpkins sq.jpg';
+import straw from '../../assets/straw.jpg';
 
 function FruitTop(props) {
   return (
@@ -35,11 +36,124 @@ function FruitTop(props) {
 					</div>
 					<div className='fruit-news-box'>
 						<h2>Latest News</h2>
+						<p className='date-bold'>JUNE 3, 2022:</p>
+						<p>Peaches are now available in the market. Pick-your-own
+							 peach days will likely occur at the beginning of August. 
+							 Signup for the Ripeline to be notified of our limited PYO
+							 peach days.
+						</p>
 					</div>
+				</div>
+
+				<div className='view-recipes-box'>
+					<a href='#Recipes' target="_blank">
+						<h2>> VIEW RECIPES</h2>
+					</a>
+				</div>
+				
+				<div className='fruit-info-container-desktop'>
+					<div className='fruit-info-paragraph-box'>
+						<FruitParagraph 
+							heading='How do I pick a good berry?'
+							para="Do you know where your local supermarket's berries come from? If 
+							the berries are hard or crunchy, oversized, or dry, you can bet 
+							that they aren't local. Strawberries, like most fragile fruits, 
+							reach their peak of perfection just before they get soft. It is 
+							the moment of ripeness when fruit sugar levels spike, and color is
+							at its peak. Our fresh strawberries are dark red throughout, so 
+							juicy they drip, and so sweet that you won't even want to dip 
+							them in sugar. Unless your supermarket buys from a local supplier
+							that delivers daily, there will be no comparison between 
+							store-bought and local."
+						/>
+						<FruitParagraph 
+							heading='How do I pick a good berry?'
+							para="Do you know where your local supermarket's berries come from? If 
+							the berries are hard or crunchy, oversized, or dry, you can bet 
+							that they aren't local. Strawberries, like most fragile fruits, 
+							reach their peak of perfection just before they get soft. It is 
+							the moment of ripeness when fruit sugar levels spike, and color is
+							at its peak. Our fresh strawberries are dark red throughout, so 
+							juicy they drip, and so sweet that you won't even want to dip 
+							them in sugar. Unless your supermarket buys from a local supplier
+							that delivers daily, there will be no comparison between 
+							store-bought and local."
+						/>
+						<FruitParagraph 
+							heading='How do I pick a good berry?'
+							para="Do you know where your local supermarket's berries come from? If 
+							the berries are hard or crunchy, oversized, or dry, you can bet 
+							that they aren't local. Strawberries, like most fragile fruits, 
+							reach their peak of perfection just before they get soft. It is 
+							the moment of ripeness when fruit sugar levels spike, and color is
+							at its peak. Our fresh strawberries are dark red throughout, so 
+							juicy they drip, and so sweet that you won't even want to dip 
+							them in sugar. Unless your supermarket buys from a local supplier
+							that delivers daily, there will be no comparison between 
+							store-bought and local."
+						/>
+					</div>
+					<div className='fruit-info-pictures-box'>
+						<img src={straw} alt="strawberries"/>
+						<img src={straw} alt="strawberries"/>
+					</div>
+				</div>
+
+				<div className='fruit-info-container-mobile'>
+						<FruitParagraph 
+							heading='How do I pick a good berry?'
+							para="Do you know where your local supermarket's berries come from? If 
+							the berries are hard or crunchy, oversized, or dry, you can bet 
+							that they aren't local. Strawberries, like most fragile fruits, 
+							reach their peak of perfection just before they get soft. It is 
+							the moment of ripeness when fruit sugar levels spike, and color is
+							at its peak. Our fresh strawberries are dark red throughout, so 
+							juicy they drip, and so sweet that you won't even want to dip 
+							them in sugar. Unless your supermarket buys from a local supplier
+							that delivers daily, there will be no comparison between 
+							store-bought and local."
+						/>
+						<img src={straw} alt="strawberries"/>
+						<FruitParagraph 
+							heading='How do I pick a good berry?'
+							para="Do you know where your local supermarket's berries come from? If 
+							the berries are hard or crunchy, oversized, or dry, you can bet 
+							that they aren't local. Strawberries, like most fragile fruits, 
+							reach their peak of perfection just before they get soft. It is 
+							the moment of ripeness when fruit sugar levels spike, and color is
+							at its peak. Our fresh strawberries are dark red throughout, so 
+							juicy they drip, and so sweet that you won't even want to dip 
+							them in sugar. Unless your supermarket buys from a local supplier
+							that delivers daily, there will be no comparison between 
+							store-bought and local."
+						/>
+						<img src={straw} alt="strawberries"/>
+						<FruitParagraph 
+							heading='How do I pick a good berry?'
+							para="Do you know where your local supermarket's berries come from? If 
+							the berries are hard or crunchy, oversized, or dry, you can bet 
+							that they aren't local. Strawberries, like most fragile fruits, 
+							reach their peak of perfection just before they get soft. It is 
+							the moment of ripeness when fruit sugar levels spike, and color is
+							at its peak. Our fresh strawberries are dark red throughout, so 
+							juicy they drip, and so sweet that you won't even want to dip 
+							them in sugar. Unless your supermarket buys from a local supplier
+							that delivers daily, there will be no comparison between 
+							store-bought and local."
+						/>					
 				</div>
 
     </div>
   )
+}
+
+function FruitParagraph(props) {
+  return (
+		<div className='fruit-paragraph'>
+			<h2>{props.heading}</h2>
+			<p>{props.para}</p>
+		</div>
+	)
 }
 
 export default FruitTop

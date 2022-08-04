@@ -11,13 +11,15 @@ import { Home } from './home';
 import { PlanYourVisit } from './planYourVisit';
 import { ContactUs } from './contactUs';
 import { OurFruit, Strawberries } from './ourFruit';
+import { History } from './history';
 
 import './App.css';
 
 const App = () => {
   return (
     <div className="App">
-      <Strawberries />
+      {/* <History /> */}
+      {/* <Strawberries /> */}
       {/* <OurFruit /> */}
       {/* <ContactUs /> */}
       {/* <PlanYourVisit /> */}

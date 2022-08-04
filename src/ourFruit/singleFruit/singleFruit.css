@@ -26,15 +26,17 @@
 .fruit-dates-news-container {
     display: flex;
     flex-wrap: wrap;
-    padding-top: 1rem;
+    justify-content: flex-start;
 }
 
 .fruit-dates-box {
-
+    padding-right: 5rem;
+    padding-top: 1rem;
 }
 
 .fruit-news-box {
-
+    padding-top: 1rem;
+    max-width: 25rem;
 }
 
 .dates-box-inner {
@@ -73,4 +75,91 @@
 
 .givem-a-little-space-2 {
     padding-bottom: 1.27rem;
+}
+
+.date-bold {
+    font-weight: bold;
+}
+
+.view-recipes-box {
+    border-top: 2px solid var(--color-dark-pink);
+    border-bottom: 2px solid var(--color-dark-pink);
+    margin: 2rem 0rem 2rem;
+}
+
+.view-recipes-box h2 {
+    font-family: var(--simple-font);
+    color: var(--color-green);
+    text-align: center;
+    padding: 1rem 0rem 1rem;
+}
+
+.fruit-info-container-desktop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.fruit-info-paragraph-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 40rem;
+    min-width: 22rem;
+    padding-right: 1rem;
+}
+
+.fruit-info-paragraph-box p {
+    text-indent: 2rem;
+}
+
+.fruit-info-pictures-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.fruit-info-pictures-box img {
+    width: 300px;
+    padding-bottom: 1rem;
+}
+
+.fruit-info-container-mobile {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.fruit-info-container-mobile img {
+    width: 280px;
+    padding-bottom: 1rem;
+}
+
+.fruit-info-container-mobile p {
+    padding-bottom: 1rem;
+}
+
+.fruit-paragraph {
+    padding-bottom: 1rem;
+}
+
+.fruit-paragraph h2 {
+    font-size: 2.3rem;
+    max-width: 22rem;
+}
+
+/* the point at which the info container switches to one column */
+@media (max-width: 1010px) {
+    .fruit-info-container-desktop {
+        display: none;
+    }
+    
+    .fruit-info-container-mobile {
+        display: flex;
+    }
+
+    .fruit-info-container-mobile p {
+        max-width: 700px;
+    }
 }
