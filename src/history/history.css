@@ -1,0 +1,45 @@
+.history {
+    padding: 1rem 1rem 8rem;
+}
+
+.history h1 {
+    text-align: center;
+    padding: 0.5rem 0rem 1.5rem;
+    font-size: calc(14px + 3vw);
+}
+
+.history-picture-box {
+    border-top: 3px solid var(--color-dark-pink);
+    border-bottom: 3px solid var(--color-dark-pink);
+    padding: 2rem 0rem 2rem;
+    text-align: center;
+}
+
+.history-picture-box img {
+    display: table;
+    margin: auto;
+    padding-bottom: 0.3rem;
+    width: calc(270px + 20vw);
+}
+
+.history-info-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1rem 0rem 2rem;
+}
+
+.history-info-container p {
+    max-width: 40rem;
+    padding-bottom: 1rem;
+}
+
+.history-info-container img {
+    width: 300px;
+    padding-bottom: 0.2rem;
+}
+
+.history-caption {
+    text-align: center;
+    font-size: smaller;
+}
