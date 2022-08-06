@@ -12,12 +12,14 @@ import { PlanYourVisit } from './planYourVisit';
 import { ContactUs } from './contactUs';
 import { OurFruit, Strawberries } from './ourFruit';
 import { History } from './history';
+import { Blog } from './blog';
 
 import './App.css';
 
 const App = () => {
   return (
     <div className="App">
+      <Blog />
       {/* <History /> */}
       {/* <Strawberries /> */}
       {/* <OurFruit /> */}
