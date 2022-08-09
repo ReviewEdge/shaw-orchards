@@ -13,13 +13,15 @@ import { ContactUs } from './contactUs';
 import { OurFruit, Strawberries } from './ourFruit';
 import { History } from './history';
 import { Blog } from './blog';
+import { Wholesale } from './wholesale';
 
 import './App.css';
 
 const App = () => {
   return (
     <div className="App">
-      <Blog />
+      <Wholesale />
+      {/* <Blog /> */}
       {/* <History /> */}
       {/* <Strawberries /> */}
       {/* <OurFruit /> */}
