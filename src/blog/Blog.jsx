@@ -11,7 +11,9 @@ function Blog() {
       <Navbar2 />
       <News />
       <div className='blog'>
-        <img className='blog-title' src={title} alt="the fruitful tree"/>
+        <a >
+          <img className='blog-title' src={title} alt="the fruitful tree"/>
+        </a>
         <div className='tree-container'>
           <div className='left-blogs'>
             
@@ -24,7 +26,7 @@ function Blog() {
                 As the virus spread in the spring, we had no idea what to expect from the the 2020 marketing season. But we knew that if people were going to come out to the orchard, they would want to...
                 hellloet therea fasldkfa sdf asdf asd fas df asdf asdf as df asd fas df asd fas df
               "
-             />
+            />
 
             <LeafLeft 
               monthAndYear="AUGUST 2019"
@@ -35,7 +37,7 @@ function Blog() {
                 As the virus spread in the spring, we had no idea what to expect from the the 2020 marketing season. But we knew that if people were going to come out to the orchard, they would want to...
                 hellloet therea fasldkfa sdf asdf asd fas df asdf asdf as df asd fas df asd fas df
               "
-             />
+            />
             
           </div>
 
@@ -126,6 +128,5 @@ function LeafRight(props) {
     </div>
   )
 }
-
 
 export default Blog

@@ -1,0 +1,40 @@
+.wholesale {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.wholesale h1 {
+    font-size: 3rem;
+    text-align: center;
+    padding: 2rem 0rem 2rem;
+    border-bottom: 3px solid var(--color-dark-pink);
+    margin-bottom: 1rem;
+}
+
+.wholesale-pad {
+    padding-bottom: 5rem;
+}
+
+.wholesale-info-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wholesale-info-container p {
+    max-width: 30rem;
+    min-width: 15rem;
+    text-indent: 2rem;
+    line-height: 200%;
+    padding: 1rem 0rem 1rem;
+}
+
+.wholesale-info-pictures-box img {
+    width: 250px;
+    padding: 1rem;
+}
+
+.wholesale-phone {
+    white-space: nowrap;
+    font-weight: bold;
+}
