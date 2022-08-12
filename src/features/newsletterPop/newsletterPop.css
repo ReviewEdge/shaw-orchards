@@ -1,0 +1,63 @@
+.newsletter-pop-shell {
+    position: fixed;
+    z-index: 1;
+    top: 25%;
+    left: 50%;
+    /* margin-top: -100px; Negative half of height. */
+    margin-left: -8rem; /* Negative half of width. */
+}
+
+.newsletter-pop {
+    width: 16rem;
+    display: table;
+    margin: auto;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 0.4rem;
+    position: relative;
+    background-color: var(--color-bg);
+
+    display: none;
+}
+
+.newsletter-pop.open {
+    display: block;
+}
+
+.newsletter-pop-x {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    cursor: pointer;
+}
+
+
+.newsletter-pop h1 {
+    font-weight: bold;
+    font-family: var(--simple-font);
+    padding-top: 0.3rem;
+}
+
+.newsletter-pop h2 {
+    font-family: var(--simple-font);
+    font-size: 1rem;
+}
+
+.newsletter-pop h3 {
+    border-radius: 0.25rem;
+    font-family: var(--simple-font);
+    font-size: smaller;
+}
+
+.newsletter-pop-input {
+    background-color: white;
+    margin-bottom: 0.5rem;
+    text-indent: 0.3rem;
+    color: #B3B3B3;
+    font-weight: lighter;
+}
+
+.newsletter-pop-sign-up {
+    background-color: var(--color-green);
+    text-align: center;
+}

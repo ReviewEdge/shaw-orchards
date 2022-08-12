@@ -20,14 +20,14 @@ import './App.css';
 const App = () => {
   return (
     <div className="App">
-      <Wholesale />
+      {/* <Wholesale /> */}
       {/* <Blog /> */}
       {/* <History /> */}
       {/* <Strawberries /> */}
       {/* <OurFruit /> */}
       {/* <ContactUs /> */}
       {/* <PlanYourVisit /> */}
-      {/* <Home /> */}
+      <Home />
     </div>
   )
 }

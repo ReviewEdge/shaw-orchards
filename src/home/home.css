@@ -1,0 +1,23 @@
+.home-blurry-face {
+    filter: blur(5px);
+}
+
+.home-blury-nope {
+    filter: none;
+}
+
+.home-newsletter-pop-x {
+    position: fixed;
+    z-index: 2;
+    top: 25%;
+    left: 50%;
+    margin-top: 1px;
+    margin-left: 103px;
+    cursor: pointer;
+
+    display: none;
+}
+
+.home-newsletter-pop-x.open {
+    display: block;
+}
