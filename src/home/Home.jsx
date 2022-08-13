@@ -5,8 +5,8 @@ import { RiCloseLine } from 'react-icons/ri'
 import './home.css'
 
 const Home = () => {
-  const [isNavExpanded, setIsNavExpanded] = useState(true)
-  const [isBlurryFace, setIsBlurryFace] = useState(true)
+  const [isNavExpanded, setIsNavExpanded] = useState(true);
+  const [isBlurryFace, setIsBlurryFace] = useState(true);
 
   return (
       <div className="home">
